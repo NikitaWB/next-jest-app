@@ -1,7 +1,15 @@
+import Link from "next/link";
+
 const Footer = () => {
     return (
         <footer className="footer">
-            <button className="kopvilkor">Öppet köp/Fri frakt/Mer som medlem</button>
+            <Link href="/kopvillkor">
+            <a className="kopvilkor">
+                <p>Öppet köp</p>
+                <p>Fri frakt</p>
+                <p>Mer som medlem</p>
+            </a>
+            </Link>
             <p>Massa länkknappar till sidor som hjälp och info</p>
             <p>Copyright 2021 Nikitas Åhléns</p>
         </footer>

@@ -33,6 +33,15 @@ footer {
   background-color: red;
   color: white;
 }
+footer a {
+  font-size: x-small;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: pink;
+  color: purple ;
+  cursor: pointer;
+}
 
 /* .content {
   max-width: 960px;
