@@ -1,0 +1,12 @@
+.header_offer {
+    padding: 8px 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #FF9391;
+  }
+
+  .header_offer a {
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+  }

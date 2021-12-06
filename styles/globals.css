@@ -1,6 +1,8 @@
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   background: white;
-  color: #333;
+  color: black;
 }
 a {
   color: #333;
@@ -8,27 +10,35 @@ a {
 }
 nav {
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 nav a {
-  margin-left: 12px;
+  margin-left: 10px;
 }
-nav .minibasket {
-  margin-left: 12px;
+nav a:hover {
+  background-color: yellow;
+}
+nav button {
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: yellow;
 }
 nav .logo {
+  display: block;
   margin-right: auto;
-}
-.search {
-  padding: 0.3rem 1rem;
-  justify-content: center;
-  background-color: lightgray;
+  margin-right: auto;
 }
 
 footer {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
   text-align: center;
   background-color: red;
   color: white;
@@ -38,8 +48,8 @@ footer a {
   padding: 0px;
   display: flex;
   justify-content: space-around;
-  background-color: pink;
-  color: purple ;
+  background-color: #FFBFBF;
+  color: #5E1220 ;
   cursor: pointer;
 }
 

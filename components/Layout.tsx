@@ -1,12 +1,14 @@
 import Footer from "./Footer";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import Search from "./Search";
+import HeaderOffer from "./HeaderOffer";
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: any) => {
     return (
         <div>
-            <Header />
+            <Navbar />
             <Search />
+            <HeaderOffer/>
             { children }
             <Footer />
         </div>

@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import styles from '../styles/Header.module.css'
 import logo from '../public/ahlens-logo.png';
 import hearticon from '../public/heart_icon.png';
 import hamburgericon from '../public/hamburger_menu.png';
 import personicon from '../public/person_icon.png';
 import shoppingbagicon from '../public/shopping_bag_icon.png';
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div>
       <Head>
@@ -44,4 +45,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
