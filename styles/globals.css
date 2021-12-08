@@ -19,7 +19,7 @@ nav a {
   margin-left: 10px;
 }
 nav a:hover {
-  background-color: yellow;
+  background-color: #FFBFBF;
 }
 nav button {
   background-color: white;
@@ -27,12 +27,25 @@ nav button {
   cursor: pointer;
 }
 nav button:hover {
-  background-color: yellow;
+  background-color: #FFBFBF;
 }
 nav .logo {
   display: block;
   margin-right: auto;
   margin-right: auto;
+}
+h1 {
+  margin-left: 2.5rem;
+}
+h2 {
+  margin-left: 2.5rem;
+}
+h3 {
+  margin-left: 2.5rem;
+}
+p {
+  padding: 1rem 2rem;
+  text-align: center;
 }
 
 footer {
@@ -51,6 +64,9 @@ footer a {
   background-color: #FFBFBF;
   color: #5E1220 ;
   cursor: pointer;
+}
+footer p {
+  padding: 2px;
 }
 
 /* .content {

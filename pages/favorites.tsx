@@ -3,7 +3,7 @@
 const Favorites = () => {
     return (
         <div>
-            <h1>Hello from Favorites</h1>
+            <h3>Mina Favoriter</h3>
         </div>
     );
 };

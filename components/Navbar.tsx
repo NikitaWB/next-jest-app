@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../styles/Header.module.css'
 import logo from '../public/ahlens-logo.png';
 import hearticon from '../public/heart_icon.png';
 import hamburgericon from '../public/hamburger_menu.png';
